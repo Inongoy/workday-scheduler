@@ -1,0 +1,51 @@
+ <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    /> <!-- bootstrap styles -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/open-iconic/1.1.1/font/css/open-iconic-bootstrap.min.css"
+    /> <!-- OpenIconic library -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous"
+    /> <!-- fontawesome fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
+      rel="stylesheet"
+    /> <!-- google fonts -->
+    <link
+      href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css"
+      rel="stylesheet"
+    /> <!-- jQueryUI theme -->
+    <link rel="stylesheet" href="./Assets/style.css" /> <!-- custom css stylesheet -->
+    <title>Work Day Scheduler</title>
+  </head>
+
+  <body class="bg-gradient">
+    <header class="jumbotron p-1 bg-info border-warning mb-2">
+      <h1 class="display-4">Work Day Scheduler</h1>
+      <p class="lead">Plan your day the right way!</p>
+      <p id="current-day" class="lead font-weight-bold">What day is it?</p>
+    </header>
+
+    <!-- main planner element -->
+    <main class="container">
+      <!-- hourly planner -->
+      <section id="planner" class="row mx-auto"></section>
+    </main>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script> <!-- jquery cdn -->
+    <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script> <!-- jquery UI -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script> <!-- moment.js cdn -->
+    <script src="./Assets/schedule.js"></script> <!-- custom script -->
+  </body>
+</html>
