@@ -5,20 +5,20 @@
 This is a Workday Scheduler application built using CSS, HTML, and JavaScript, with the help of various libraries and frameworks.
 
 ## Features
-Plan and organize your workday using an interactive scheduler.
-Add, update, and delete tasks for specific time slots.
-Time slots dynamically update based on the current time, indicating past, present, and future tasks.
-Uses local storage to persist tasks even after page reloads.
+- Plan and organize your workday using an interactive scheduler.
+- Add, update, and delete tasks for specific time slots.
+- Time slots dynamically update based on the current time, indicating past, present, and future tasks.
+- Uses local storage to persist tasks even after page reloads.
 
 ## Technologies Used
-HTML: Used to structure the application and create the user interface.
-CSS: Used for styling and layout of the scheduler.
-JavaScript: Used for implementing the application logic and user interactions.
-jQuery: A JavaScript library used for simplified DOM manipulation and event handling.
-jQueryUI: A jQuery-based user interface library that provides interactive widgets and components.
-Bootstrap: A CSS framework used for creating a responsive and visually appealing design.
-Moment.js: A JavaScript library used for parsing, manipulating, and formatting dates and times.
-OpenIconic: A free and open-source icon set used for adding icons to the user interface.
+- HTML: Used to structure the application and create the user interface.
+- CSS: Used for styling and layout of the scheduler.
+- JavaScript: Used for implementing the application logic and user interactions.
+- jQuery: A JavaScript library used for simplified DOM manipulation and event handling.
+- jQueryUI: A jQuery-based user interface library that provides interactive widgets and components.
+- Bootstrap: A CSS framework used for creating a responsive and visually appealing design.
+- Moment.js: A JavaScript library used for parsing, manipulating, and formatting dates and times.
+- OpenIconic: A free and open-source icon set used for adding icons to the user interface.
 
 ## Getting Started
 To use the Workday Scheduler, simply open the Workday Scheduler in your web browser. The scheduler will load, and you can start planning your workday.
@@ -35,9 +35,9 @@ To use the Workday Scheduler, simply open the Workday Scheduler in your web brow
 ## Customization
 You can customize the Workday Scheduler by modifying the HTML, CSS, and JavaScript code.
 
-HTML: You can modify the layout, add additional elements, or change the structure of the scheduler interface by editing the HTML code.
-CSS: You can modify the styles in the CSS code to change the appearance and visual design of the scheduler.
-JavaScript: You can customize the scheduler functionality or add additional features by editing the JavaScript code.
+- HTML: You can modify the layout, add additional elements, or change the structure of the scheduler interface by editing the HTML code.
+- CSS: You can modify the styles in the CSS code to change the appearance and visual design of the scheduler.
+- JavaScript: You can customize the scheduler functionality or add additional features by editing the JavaScript code.
 
 ## Contribution
 Contributions to the Workday Scheduler project are welcome. If you find any issues or have suggestions for improvements, feel free to open an issue or submit a pull request.
